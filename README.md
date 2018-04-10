@@ -29,6 +29,23 @@ Data Certificate Program
     # print myStrong
   # SyntaxError: Missing parentheses in call to 'print'. Did you mean print(myStrong)?
 
+# E3) Warning because didn't import a module
+# ---------------------------------------------------------------------------
+# NameError                                 Traceback (most recent call last)
+# <ipython-input-34-e51eb2b679f5> in <module>()
+#      1 # get current time
+# ----> 2 datetime.datetime.now()
+  # NameError: name 'datetime' is not defined
+  
+# E4) Typo type errors
+#  File "<ipython-input-48-6391e2faf08e>", line 6
+  #  return Value1 + Value 2
+                          ^
+# SyntaxError: invalid syntax
+# Simply retyped the typo. Go back and quickly check. Syntax errors simply to fix
+
+
+
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
 ########################################################################
