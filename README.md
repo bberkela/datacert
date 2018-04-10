@@ -82,7 +82,18 @@ Data Certificate Program
 # File "<ipython-input-90-a44759eb46f8>", line 8
     # else:
        ^
-# SyntaxError: invalid synta
+# SyntaxError: invalid syntax
+
+# E9 No module named sets
+# ModuleNotFoundError                       Traceback (most recent call last)
+# <ipython-input-102-9bf5d7da6c32> in <module>()
+  #    3 
+  #    4 # import library
+# ----> 5 from sets import Set
+  #    6 SetA = Set(['Red', 'Blue', 'Green', 'Black'])
+  #    7 SetB = Set(['Black', 'Green', 'Yellow', 'Orange'])
+
+ModuleNotFoundError: No module named 'sets'
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
