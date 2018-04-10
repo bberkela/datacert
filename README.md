@@ -93,7 +93,11 @@ Data Certificate Program
   #    6 SetA = Set(['Red', 'Blue', 'Green', 'Black'])
   #    7 SetB = Set(['Black', 'Green', 'Yellow', 'Orange'])
 
-ModuleNotFoundError: No module named 'sets'
+# ModuleNotFoundError: No module named 'sets'
+# As per StackOverflow (Did google search for Python 3 no sets module and first place I went was Stack Overflow
+# I know you planned to put stuff in Piazza but I figured I'd try my default rather than search first and it worked
+# https://stackoverflow.com/questions/12028204/python-cant-import-set-from-sets-no-module-named-sets?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+# just needed to change command from Set to set which is now built into Python 3
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
@@ -118,7 +122,8 @@ ModuleNotFoundError: No module named 'sets'
 ########################################################################
 
 # Useful. I suspect it would be difficult for someone who had never coded before and absolute beginner
-# or someone with limited coding experience. 
+# or someone with limited coding experience. I would recommend a more updated version built for Python 3
+# unless the person was comfortable with some things not working. If so, this works fine.
 
 
 
