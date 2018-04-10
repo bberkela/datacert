@@ -115,6 +115,38 @@ Data Certificate Program
 # Packed house most of the weekend. So working late. FT work. End of semester. Plus international move
 # Good problems.
 
+# E11) Big long error when editing images
+# ---------------------------------------------------------------------------
+# ValueError                                Traceback (most recent call last)
+# <ipython-input-83-5aaa341d3846> in <module>()
+# ----> 1 image3 = resize(image2, (30, 30), mode='nearest')
+  #     2 plt.imshow(image3, cmap=cm.gray)
+  #     3 print("data type: %s, shape: 5s" %
+  #     4      (type(image3), image3.shape))
+
+# C:\ProgramData\Anaconda3\lib\site-packages\skimage\transform\_warps.py in resize(image, output_shape, order, mode, cval, clip, # 
+# preserve_range)
+  #   133         out = warp(image, tform, output_shape=output_shape, order=order,
+  #   134                    mode=mode, cval=cval, clip=clip,
+# --> 135                    preserve_range=preserve_range)
+  #   136 
+  #   137     return out
+
+# C:\ProgramData\Anaconda3\lib\site-packages\skimage\transform\_warps.py in warp(image, inverse_map, map_args, output_shape, order, 
+# mode, cval, clip, preserve_range)
+  #   767                 warped = _warp_fast(image, matrix,
+  #   768                                  output_shape=output_shape,
+# --> 769                                  order=order, mode=mode, cval=cval)
+  #   770             elif image.ndim == 3:
+  #   771                 dims = []
+
+# skimage/transform/_warps_cy.pyx in skimage.transform._warps_cy._warp_fast (skimage\transform\_warps_cy.c:2226)()
+
+# ValueError: Invalid mode specified.  Please use `constant`, `edge`, `wrap`, `reflect` or `symmetric`.
+
+# First step to solve. Read through quickly
+
+
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
@@ -157,3 +189,7 @@ Data Certificate Program
 
 # Strategies I use for proofing code and documents (start at the end and move backward, help simply the 
 # process of cleaning code. Catch more errors this way.
+
+# Yes, it would be better to start earlier, but I'm making it work with the schedule of my life.
+# Still unclear how to do markdown errors. I kept looking for a good tutorial. I saw examples--but I'm not sure how to do it
+yet.
