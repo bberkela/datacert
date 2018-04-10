@@ -21,6 +21,13 @@ Data Certificate Program
   # for the python installation. "'python' is not recognized as an internal or external command, operable program or batch file."
   # Took less than minutes to get to the right path, update pip and confirm that all the other
   # Anaconda items were up-to-date.
+  
+# E2) Warning in Jupyter Notebooks (missing parathenses). Easy to fix. Me trying to remember print commands from Python after a long day
+# day of work. Easy to fix. Followed instructions
+  # 
+  # File "<ipython-input-23-826950f270bd>", line 2
+    # print myStrong
+  # SyntaxError: Missing parentheses in call to 'print'. Did you mean print(myStrong)?
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
