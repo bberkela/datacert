@@ -110,6 +110,11 @@ Data Certificate Program
 
 # Book told me that python 3 need r rather than rb switch to avoid error.
 
+# E10) Yep another typo. Need to remember () for print() in Python 3
+# SyntaxError: Missing parentheses in call to 'print'. Did you mean print(trig_values)?
+# Packed house most of the weekend. So working late. FT work. End of semester. Plus international move
+# Good problems.
+
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
