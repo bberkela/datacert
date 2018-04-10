@@ -96,6 +96,8 @@ Data Certificate Program
 # Was the tutorial useful? Would you recommend it to others?
 ########################################################################
 
+# Useful. I suspect it would be difficult for someone who had never coded before and absolute beginner
+# or someone with limited coding experience. 
 
 
 
@@ -103,3 +105,5 @@ Data Certificate Program
 # What are the main lessons you've learned from this experience?
 ########################################################################
  
+# Keep learning shortcut keys so you don't have to use mouse (I love to do everything by keyboard
+# Sometimes if I just don't think about it, I figure it out quickly
