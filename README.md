@@ -121,3 +121,6 @@ Data Certificate Program
 # Jupyter notebook is nice for starting out in some ways, but I prefer creating on a different text editor (ATOM)
 # and then running in command line. Why? It indents automatically.
 # Both use nice color-coded coded. Which helps in reading the code, although the colors aren't consistent
+
+# Strategies I use for proofing code and documents (start at the end and move backward, help simply the 
+# process of cleaning code. Catch more errors this way.
