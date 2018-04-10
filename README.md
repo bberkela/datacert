@@ -67,11 +67,14 @@ Data Certificate Program
   #  print(str(Value1) + ' + ' + str(Value2) + ' = ' +
   #  str((Value1 + Value2))
   # File "<ipython-input-60-da4861838ef2>", line 4
-    # str((Value1 + Value2))
-                          ^
+    # str((Value1 + Value2))                  ^
 # SyntaxError: unexpected EOF while parsing
-
 # Needed extra ) because of end of file issue
+
+
+# E7) Got a syntax error on page 72 with the code. 
+# I typed Var Args as written but thought it seemed weird that it had a space
+# got syntax error. Took out space. Typo in textbook.
 
 
 
