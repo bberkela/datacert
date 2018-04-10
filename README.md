@@ -77,6 +77,12 @@ Data Certificate Program
 # got syntax error. Took out space. Typo in textbook.
 
 
+#E8) Atom the texteditor I used to first learn python automatically indents the code correctly. Jupyter notebooks does not
+# This error resulted from having the indents off in my code. Quick fix one I realized the "else" was the syntax error
+# File "<ipython-input-90-a44759eb46f8>", line 8
+    # else:
+       ^
+# SyntaxError: invalid synta
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
