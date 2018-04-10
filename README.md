@@ -43,6 +43,7 @@ Data Certificate Program
                           ^
 # SyntaxError: invalid syntax
 # Simply retyped the typo. Go back and quickly check. Syntax errors simply to fix
+# Python is Case Sensitive
 
 
 # E5) Intentionally provided only one argument to create error as requested in Ch. 4 Tutorial
