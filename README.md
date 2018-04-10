@@ -99,6 +99,18 @@ Data Certificate Program
 # https://stackoverflow.com/questions/12028204/python-cant-import-set-from-sets-no-module-named-sets?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 # just needed to change command from Set to set which is now built into Python 3
 
+# E9) Dumb error. Needed to change for Python 3
+# ---------------------------------------------------------------------------
+# TypeError                                 Traceback (most recent call last)
+# <ipython-input-30-1e802eeead7f> in <module>()
+#      1 with open("Colors.txt", 'rb') as open_file:
+# ----> 2     print("Colors.txt content:\n" + open_file.read())
+# 
+# TypeError: must be str, not bytes
+
+# Book told me that python 3 need r rather than rb switch to avoid error.
+
+
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
 ########################################################################
