@@ -111,3 +111,7 @@ Data Certificate Program
  
 # Keep learning shortcut keys so you don't have to use mouse (I love to do everything by keyboard
 # Sometimes if I just don't think about it, I figure it out quickly
+
+# Jupyter notebook is nice for starting out in some ways, but I prefer creating on a different text editor (ATOM)
+# and then running in command line. Why? It indents automatically.
+# Both use nice color-coded coded. Which helps in reading the code, although the colors aren't consistent
