@@ -45,6 +45,32 @@ Data Certificate Program
 # Simply retyped the typo. Go back and quickly check. Syntax errors simply to fix
 
 
+# E5) Intentionally provided only one argument to create error as requested in Ch. 4 Tutorial
+
+# Trying DoSum with one argument to create an error message
+# def DoSum(1,2)
+# Trying DoSum with one argument to create an error message
+# def DoSum(1,2)
+  # File "<ipython-input-50-08a642cece8a>", line 2
+    # def DoSum(1,2)
+              ^
+# SyntaxError: invalid syntax
+
+# E6) Error "unexpected EOF"
+
+# def DisplaySum(Value1, Value2):
+  #  print(str(Value1) + ' + ' + str(Value2) + ' = ' +
+  #  str((Value1 + Value2))
+# sending argument bey keywords so you don't necessarily have to have the values in order needed
+# def DisplaySum(Value1, Value2):
+  #  print(str(Value1) + ' + ' + str(Value2) + ' = ' +
+  #  str((Value1 + Value2))
+  # File "<ipython-input-60-da4861838ef2>", line 4
+    # str((Value1 + Value2))
+                          ^
+# SyntaxError: unexpected EOF while parsing
+
+
 
 ########################################################################
 # Was it straightforward to install Python and all of the libraries?
